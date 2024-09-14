@@ -5,7 +5,7 @@ constexpr int N_ELEMENTS = 100;
 int main()
 {
     int *b = new int[N_ELEMENTS]; //N_ELEMENTS lett definiálva
-    std::cout << '1-100 ertekek duplazasa'; //; hiány
+    std::cout << "1-100 ertekek duplazasa"; //; hiány
     for (int i = 0; i < N_ELEMENTS; i++) // hibás for ciklus feltétel hiány
     {
         b[i] = i * 2;
